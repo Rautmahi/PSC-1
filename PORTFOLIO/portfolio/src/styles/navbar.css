@@ -1,0 +1,102 @@
+#navDiv {
+  box-shadow: rgba(168, 199, 224, 0.25) 0px 6px 12px -2px,
+    rgba(139, 205, 240, 0.3) 0px 3px 7px -3px;
+  font-family: Roboto Mono, monospace;
+}
+.mainNav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.myLogo {
+  width: 2.8rem;
+  height: 2.5rem;
+  margin-left: 8rem;
+  transform: scale(1.6);
+}
+.navbar-nav {
+  margin: auto;
+}
+
+#listComponents {
+  margin-top: 0.7rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(#339fec, #0a3c5f);
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+
+  /* background-position 0s 0.5s; change after the size immediately */
+}
+
+#listComponents:hover {
+  /* font-size: 1.5rem; */
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 2px;
+  cursor: pointer;
+}
+
+/* background-color: rgb(12, 20, 27); */
+
+@media all and (max-width: 768px) {
+  .ham-memo {
+    background-color: #1e2e3a;
+    /* border-radius: 1rem; */
+    filter: blur(5px);
+    filter: brightness(0.7);
+    filter: contrast(200%);
+    box-shadow: rgba(168, 199, 224, 0.25) 0px 6px 12px -2px,
+      rgba(139, 205, 240, 0.3) 0px 3px 7px -3px;
+    width: 30%;
+    margin-left: 62vw;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    align-self: right;
+  }
+  #listComponents {
+    margin-top: 0.7rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    display: inline-block;
+    padding-bottom: 2px;
+    background-image: linear-gradient(#339fec, #0a3c5f);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    text-decoration: none;
+    /* background-position 0s 0.5s; change after the size immediately */
+  }
+  #listComponents:hover {
+    /* font-size: 1.5rem; */
+    background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 2px;
+    cursor: pointer;
+  }
+  .links {
+    text-decoration: none;
+    color: #339fec;
+  }
+  .navbar-toggler{
+    background-color: white;
+    border: 3px solid rgb(0, 9, 78);
+
+  }
+  .navbar-collapse{
+    font-size: 0.8rem;
+    /* border: 1px solid red; */
+    font-weight: 100;
+  }
+  .links>p{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+  }
+}

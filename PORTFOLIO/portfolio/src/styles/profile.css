@@ -1,0 +1,192 @@
+#profileDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  font-family: monospace;
+  /* justify-content:space-around; */
+  background-color: rgb(12, 20, 27);
+}
+
+#profile-left-1 {
+  padding: 6rem;
+}
+#name {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  color: #fff;
+  /* font-weight:400 ; */
+}
+#greet-hi {
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  color: rgb(201, 209, 231);
+}
+#designation {
+  font-size: 1.7rem;
+}
+
+.typewriter p {
+  color: rgb(201, 209, 231);
+  font-size: 1.7rem;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.9s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(221, 14, 76);
+  }
+}
+#view-resume {
+  margin-top: 1rem;
+  background-color: rgb(157, 148, 148);
+  border: 1px solid rgb(157, 148, 148);
+  /* width: 14rem; */
+  font-size: 1.4rem;
+  color: rgb(201, 209, 231);
+  background: linear-gradient(-135deg, #7f1adf, #e7a41f);
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  outline: none;
+  padding: 20px 30px;
+  transition: all 0.3s ease-in-out;
+  width: 12rem;
+  display: flex;
+  padding: 0.7rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#dp-Div {
+  display: block;
+  /* border: 1px solid pink; */
+  width: 30%;
+  margin-left: 12%;
+  justify-content: center;
+}
+#dp {
+  /* border: 1px solid white; */
+  width: 75%;
+  margin: auto;
+  margin-top: 15%;
+}
+#img-dp {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(12, 20, 27);
+
+  border-bottom: 8px solid rgb(181, 223, 230);
+  box-shadow: rgb(36, 36, 58) 3px 3px 5px;
+}
+#links {
+  margin-left: 3.5rem;
+  /* border: 1px solid pink; */
+}
+.iconify {
+  color: white;
+  font-size: 30px;
+  margin-top: 2rem;
+}
+.iconify:hover {
+  padding-bottom: 0.5rem;
+  lighting-color: #e7a41f;
+  cursor: pointer;
+  color: rgb(236, 236, 100);
+}
+
+/* **********media queries ********** */
+
+@media all and (max-width: 600px) {
+  #profile-left-1 {
+    padding: 1.4rem;
+    padding-top: 2rem;
+    /* letter-spacing: 0.1em; */
+  
+  }
+  #name {
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+
+    color: #fff;
+    /* font-weight:400 ; */
+  }
+  #profileDiv {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    background-color: rgb(12, 20, 27);
+  }
+  #greet-hi {
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    color: rgb(201, 209, 231);
+  }
+  #view-resume {
+    margin-top: 1rem;
+    background-color: rgb(157, 148, 148);
+    border: 1px solid rgb(157, 148, 148);
+    /* width: 14rem; */
+    font-size: 1rem;
+    color: rgb(201, 209, 231);
+    background: linear-gradient(-135deg, #7f1adf, #e7a41f);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+    padding: 20px 30px;
+    transition: all 0.3s ease-in-out;
+    width: 10rem;
+    display: flex;
+    padding: 0.7rem;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  #links {
+    margin-left: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid pink; */
+  }
+  #dp-Div {
+    display: block;
+    /* border: 1px solid pink; */
+    width: 70%;
+    margin-left: 17%;
+    justify-content: center;
+  }
+  .typewriter p {
+    color: rgb(201, 209, 231);
+    font-size: 1rem;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret 0.9s step-end infinite;
+  }
+}

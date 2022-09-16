@@ -1,0 +1,185 @@
+#footer {
+  background-color: #111825;
+  margin: auto;
+  font-family: var(--font-sans);
+  font-family: Roboto Mono, monospace;
+}
+
+.getintouch {
+  /* border: 1px solid white; */
+  padding: 1rem;
+  color: #bbd2da;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.opportunities {
+  width: 50%;
+  color: #58737c;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.Contact_contactOptions__qH1OA {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  padding: 3rem 0;
+  text-align: center;
+  color: rgb(204, 214, 246);
+}
+
+.logos {
+  margin: auto;
+  /* border-top: 1px solid red; */
+  color: rgb(204, 214, 246);
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+#logo1 {
+  transform: rotate(90deg);
+}
+.contact-links > a {
+  text-decoration: none;
+}
+.contact-links > a i {
+  text-decoration: none;
+  color: #bbd2da;
+  font-size: 2rem;
+}
+
+.contact-links:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#myself {
+  margin: auto;
+  margin-top: 2rem;
+  width: 70%;
+  color: #a1b5bb;
+  justify-content: center;
+  text-align: center;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+#colaborate {
+  width: 70%;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  color: #58737c;
+}
+.form-sas {
+  display: block;
+  margin-top: 0em;
+}
+
+.Contact_formmsg__39M9c {
+  height: 100px;
+  background-color: field;
+  border-color: (rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.Contact_buttonComponent__JAxTI {
+  background: linear-gradient(-135deg, #7f1adf, #e7a41f);
+  border: none;
+  display: block;
+  border-radius: 5px;
+  margin: auto;
+  /* margin: 10px 0; */
+  outline: none;
+  padding: 5px 22px;
+  transition: all 0.3s ease-in-out;
+}
+.sendMail{
+  width: 30%;
+  justify-content: center;
+  margin: auto;
+}
+
+@media all and (max-width: 600px) {
+  #footer {
+    width: 100%;
+    background-color: #111825;
+    /* margin: auto; */
+    /* font-family: var(--font-sans); */
+    font-family: Roboto Mono, monospace;
+    /* display: none; */
+  }
+  .logos {
+    margin: auto;
+    /* border-top: 1px solid red; */
+    color: rgb(204, 214, 246);
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+  }
+  .opportunities {
+    width: 100%;
+    color: #58737c;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  #myself {
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    color: #58737c;
+
+    justify-content: center;
+    text-align: center;
+    font-size: 0em;
+  }
+  #colaborate {
+    width: 90%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: #58737c;
+    font-size: 0.6rem;
+  }
+  .opportunities {
+    width: 95%;
+    color: #58737c;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .sendMail{
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+  }
+}
